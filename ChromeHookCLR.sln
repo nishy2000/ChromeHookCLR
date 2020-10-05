@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChromeHookService", "ChromeHookService\ChromeHookService.csproj", "{6F3D09A4-D938-40F0-8B76-510E0DE72B50}"
 EndProject
@@ -34,11 +34,13 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6F3D09A4-D938-40F0-8B76-510E0DE72B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F3D09A4-D938-40F0-8B76-510E0DE72B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F3D09A4-D938-40F0-8B76-510E0DE72B50}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{6F3D09A4-D938-40F0-8B76-510E0DE72B50}.Debug|x64.Build.0 = Debug|Any CPU
 		{6F3D09A4-D938-40F0-8B76-510E0DE72B50}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{6F3D09A4-D938-40F0-8B76-510E0DE72B50}.Debug|x86.Build.0 = Debug|Any CPU
 		{6F3D09A4-D938-40F0-8B76-510E0DE72B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F3D09A4-D938-40F0-8B76-510E0DE72B50}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6F3D09A4-D938-40F0-8B76-510E0DE72B50}.Release|x64.ActiveCfg = Release|Any CPU
 		{6F3D09A4-D938-40F0-8B76-510E0DE72B50}.Release|x64.Build.0 = Release|Any CPU
 		{6F3D09A4-D938-40F0-8B76-510E0DE72B50}.Release|x86.ActiveCfg = Release|Any CPU
@@ -114,5 +116,8 @@ Global
 		{D701FC38-3ECF-4BB3-879E-3F9CFA763726} = {DA8B8966-5046-4F73-AC48-EE73F9B90CC2}
 		{576124FA-C7B7-4DB1-9776-EDD01B3818AB} = {361F4462-B6D6-40DF-BB83-8206392402E8}
 		{D5BAA967-B796-4B98-9D89-F724090C18FE} = {361F4462-B6D6-40DF-BB83-8206392402E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0D3FFCE-E289-42CE-AC02-5E981FDCB897}
 	EndGlobalSection
 EndGlobal
